@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "id": "90c7c2cb-24ab-4544-a4fd-ab1026084b12",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-08T11:29:52Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "08c5280c-e712-4889-8a64-403504f75629",
+    "description": "ac2",
+    "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "botIds": [],
+    "version": 1,
+    "actions": [],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "activityServiceType": "Stateless",
+    "workspaceId": "5d7ed239-3751-4142-ac04-6dbeb6e23579",
+    "resourceId": "90c7c2cb-24ab-4544-a4fd-ab1026084b12",
+    "name": "ac2"
+  }
+}
