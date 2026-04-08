@@ -1,6 +1,6 @@
 # 🚀 Project AAAAH
 
-[![Backend](https://img.shields.io/badge/Backend-.NET%208-blueviolet)](https://dotnet.microsoft.com/)
+[![Backend](https://img.shields.io/badge/Backend-.NET%209-blueviolet)](https://dotnet.microsoft.com/)
 [![Storage](https://img.shields.io/badge/Storage-GitOps-orange)](https://libgit2sharp.github.io/)
 
 A high-resiliency Git-backed versioning engine designed for automated resource management. This repository serves as the source of truth for all workspace configurations.
