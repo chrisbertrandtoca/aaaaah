@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "id": "5d7ed239-3751-4142-ac04-6dbeb6e23579",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-08T11:25:32Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "id": "5d7ed239-3751-4142-ac04-6dbeb6e23579",
+    "accent": "#dac8a3",
+    "route": "aaaaah",
+    "description": "asd",
+    "workspaceId": "5d7ed239-3751-4142-ac04-6dbeb6e23579",
+    "resourceId": "5d7ed239-3751-4142-ac04-6dbeb6e23579",
+    "name": "aaaaah"
+  }
+}
