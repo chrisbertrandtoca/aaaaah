@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "id": "29a6f281-6ecb-4239-bc01-b7ac1b76d1cb",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-08T14:41:11Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "29a6f281-6ecb-4239-bc01-b7ac1b76d1cb",
+    "description": "a4",
+    "associatedUsers": [
+      "cb3e6503-0240-4df6-87d6-5afff481116d"
+    ],
+    "actionGroups": [],
+    "workspaceId": "5d7ed239-3751-4142-ac04-6dbeb6e23579",
+    "resourceId": "29a6f281-6ecb-4239-bc01-b7ac1b76d1cb",
+    "name": "a4"
+  }
+}
