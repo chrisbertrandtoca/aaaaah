@@ -1,18 +1,22 @@
-# aaaaah
+# 🚀 Project AAAAH
 
-Welcome to your new workspace. Workspaces are a new organisational layer in Toca that sit above projects. A workspace can contain:
+[![Backend](https://img.shields.io/badge/Backend-.NET%208-blueviolet)](https://dotnet.microsoft.com/)
+[![Storage](https://img.shields.io/badge/Storage-GitOps-orange)](https://libgit2sharp.github.io/)
 
-* **Automation projects** containing your logic for automating your tasks
-* **Apps** your web application
-* **Datastores** containing files, complex data tables, variables, auth credentials etc.
-* **CMS** for content used by Apps
+A high-resiliency Git-backed versioning engine designed for automated resource management. This repository serves as the source of truth for all workspace configurations.
 
-You can think of a workspace as a way to group your projects and resources together to form a business project.
+## 🏗️ Architecture
 
-## Getting started
+This project implements a **Pure Content GitOps** pattern. 
+- **Git:** Tracks the raw structural JSON (`content` + `platformVersion`).
+- **Database:** Manages volatile state (`branch`, `updatedAt`, `timestamps`).
 
-- :docs-action[Create an App]{ type="CreateApps"}
-- :docs-action[Create an automation project]{ type="CreateAutomation"}
-- :docs-action[Create a datastore]{ type="CreateDatastore"}
+By separating volatile metadata from structural content, we eliminate 99% of merge conflicts and ensure blazing-fast branch operations.
 
-> You can replace this readme with anything you want, you can use standard Markdown syntax for formatting
+## 📂 Repository Structure
+
+```text
+root/
+├── .toca                 # Workspace metadata & ID tracking
+├── worktrees/            # Active branch environments (managed by GitService)
+└── [resources].json      # Pure content resource files
